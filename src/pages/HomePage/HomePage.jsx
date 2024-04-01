@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 import toast from "react-hot-toast";
-import fetchData from "../../movies-api";
-import MovieList from "../../MovieList/MovieList";
+import fetchData from "../../components/movies-api";
+import MovieList from "../../components/MovieList/MovieList";
 import css from "./HomePage.module.css";
 
 export default function HomePage() {

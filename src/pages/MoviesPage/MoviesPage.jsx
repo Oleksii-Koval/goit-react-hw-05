@@ -2,8 +2,8 @@ import { useEffect, useState } from "react";
 import { useLocation, useSearchParams } from "react-router-dom";
 import { Formik, Form, Field } from "formik";
 import toast from "react-hot-toast";
-import fetchData from "../../movies-api";
-import MovieList from "../../MovieList/MovieList";
+import fetchData from "../../components/movies-api";
+import MovieList from "../../components/MovieList/MovieList";
 import css from "./MoviesPage.module.css";
 
 export default function MoviesPage() {

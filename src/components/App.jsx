@@ -4,10 +4,10 @@ import { Toaster } from "react-hot-toast";
 import Navigation from "./Navigation/Navigation.jsx";
 import NotFound from "./pages/NotFound/NotFound.jsx";
 
-const HomePage = lazy(() => import("./pages/HomePage/HomePage.jsx"));
-const MoviesPage = lazy(() => import("./pages/MoviesPage/MoviesPage.jsx"));
+const HomePage = lazy(() => import("../pages/HomePage/HomePage.jsx"));
+const MoviesPage = lazy(() => import("../pages/MoviesPage/MoviesPage.jsx"));
 const MovieDetailsPage = lazy(() =>
-  import("./pages/MovieDetailsPage/MovieDetailsPage.jsx")
+  import("../pages/MovieDetailsPage/MovieDetailsPage.jsx")
 );
 const MovieCast = lazy(() => import("./MovieCast/MovieCast.jsx"));
 const MovieReviews = lazy(() => import("./MovieReviews/MovieReviews.jsx"));

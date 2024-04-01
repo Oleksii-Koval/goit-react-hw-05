@@ -7,7 +7,7 @@ import {
   useParams,
 } from "react-router-dom";
 import toast from "react-hot-toast";
-import fetchData from "../../movies-api";
+import fetchData from "../../components/movies-api";
 import css from "./MovieDetailsPage.module.css";
 
 export default function MovieDetailsPage() {
